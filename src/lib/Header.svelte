@@ -1,31 +1,29 @@
 <header>
     <div class="outer">
-        <div class="inner spread apart">
+        <div class="inner spread-apart">
         <a href="/"><img src="/logo-dark.svg" alt="dark logo"></a>
-        <a href="/blog" class="button bg-gradient-purple white">Get Started</a>
+    
         <nav>
-            <ul>
+            <ul class="spread-apart">
                 <li>
                    <a href="/">Home</a> 
                 </li>
                 <li>
                     <a href="/about">About</a> 
-                 </li>
-                 <li>
+                </li>
+                <li>
                     <a href="/blog">Blog</a> 
-                 </li>
-                 <li>
+                </li>
+                <li>
                     <a href="/contact">Contact</a> 
-                 </li>
-                 <li>
+                </li>
+                <li>
                     <a href="/blog" class="button bg-gradient-pink white">Get Started</a> 
-                 </li>
+                </li>
             </ul>
         </nav>
-
     </div>
-<div>
-
+</div>
 </header>
 
 <style>

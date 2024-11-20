@@ -5,7 +5,7 @@
             <h1>Lorem, ipsum dolor</h1>
             <p class="white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 Corrupti quisquam culpa assumenda, expedita labore illum sit!</p>
-                <a href="/blog" class="button bg-gradient">Get Started</a>
+                <a href="/blog" class="button bg-gradient-pink white">Get Started</a>
             </div>
         </div>
     </div>
