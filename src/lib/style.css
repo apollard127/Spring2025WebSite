@@ -17,14 +17,14 @@
     --gradient-pink: linear-gradient(hsl(13 100% 64%), hsl(322 87% 55%));
     --gradient-purple: linear-gradient(hsl(237 100% 64%), hsl(322 87% 55%));
 }
-    /* Color utility classes */
-    .white {
-        color: var(--white);
-    }
+/* Color utility classes */
+.white {
+    color: var(--white);
+}
 
-    .gray {
-        color: var(--gray);
-    }
+.gray {
+    color: var(--gray);
+}
 
 .blue {
     color: var(--blue);
@@ -66,6 +66,7 @@
     background-image: var(--gradient-purple);
 }
 
+/* resets */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -77,6 +78,12 @@ img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", Arial, helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
 }
 
 h1,
@@ -92,14 +99,14 @@ h1 {
 
 p,
 li {
-    color: var(gray);
+    color: var(--gray);
 }
 
-/* Links & Buttons */
-a {
+/* Links & Buttons */                                                                                                                                                                                                           
+a {                                                         
     color: var(--pink);
     text-decoration: none;
-}
+}   
 
 a:hover {
     text-decoration: underline;
@@ -123,12 +130,12 @@ button:hover,
 }
 
 /* Layouts */
-.flow>***{
+.flow > * * * {
     margin-top: 1.5rem;
 }
 
 .inner {
-    width: min(100% - 3 rem, 70rem);
+    width: min(100% - 3 rem, var(--lg));
     margin-inline: auto;
     padding-block: 3rem;
 }
@@ -159,7 +166,12 @@ button:hover,
     margin-bottom: 1.5rem;
 }
 
-
+.float-right {
+    width: auto;
+    float: right;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+}
 
 
 /* Typography */

@@ -18,7 +18,7 @@
                     <a href="/contact">Contact</a> 
                  </li>
                  <li>
-                    <a href="/blog" class="button bg-gradient-pink">Get Started</a> 
+                    <a href="/blog" class="button bg-gradient-pink white">Get Started</a> 
                  </li>
             </ul>
         </nav>
