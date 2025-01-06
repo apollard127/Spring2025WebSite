@@ -100,6 +100,7 @@ h1 {
 p,
 li {
     color: var(--gray);
+    text-wrap: pretty;
 }
 
 /* Links & Buttons */                                                                                                                                                                                                           
