@@ -1,5 +1,4 @@
-
-export async function load({fetch}) {
+export async function load({ fetch }) {
     const endpoint = "https://jsonplaceholder.typicode.com/posts" 
  
     const response = await fetch(endpoint)

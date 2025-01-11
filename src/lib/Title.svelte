@@ -1,6 +1,6 @@
 <script>
     let { name } = $props()
-</script>>
+</script>
 
 <section>
    <div class="outer bg-blue white">
