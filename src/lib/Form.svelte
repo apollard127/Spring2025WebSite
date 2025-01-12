@@ -28,15 +28,19 @@
     .form-wrapper {
         max-width: 48rem;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: start;
         gap: 1.5rem;
+        @media (width > 32rem) {
+            grid-template-columns: 1fr 1fr;
+            align-items: start;
+        }
     }
     .form-item {
         display: grid;
     }
     .span-2 {
+        @media (width > 32rem) {
         grid-column: span 2;
+        }
     }
 
     label {
@@ -44,6 +48,7 @@
     }
 
     input, textarea {
+        min-width: 0;
         padding: 1rem;
         font: inherit;
     }
