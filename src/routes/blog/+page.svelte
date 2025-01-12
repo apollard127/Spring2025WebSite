@@ -12,7 +12,7 @@
             {#each data.posts.posts as post}
                 <div class="flow">
                     <a href="/blog/{post.slug}">
-                        <img src={post.featured_image} alt="post.title"></a>
+                        <img src={post.featured_image} alt={post.title}></a>
                     <h2><a href="/blog/{post.slug}">{@html post.title}</a></h2>
                     <p>{@html post.excerpt}</p>
                 </div>
@@ -23,7 +23,7 @@
 
 <style>
     img {
-    aspect-ratio: 1 /1;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
 }
 </style>
