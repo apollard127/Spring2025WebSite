@@ -24,7 +24,7 @@ div {
 }
 
 img {
-    position:absolute;
+    position: absolute;
     max-width: 3.5rem;
     top: -1.5rem;
 }
